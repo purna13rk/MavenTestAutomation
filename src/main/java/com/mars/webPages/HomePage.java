@@ -25,6 +25,12 @@ public class HomePage {
 	
 	public void clickOnABTestLink() {
 		clickOnLink(abTestLink);
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	public String getTitleOfThePage() {
