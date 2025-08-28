@@ -15,10 +15,8 @@ import org.testng.annotations.BeforeSuite;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
-	// new comment added
 
 	public WebDriver driver;
-//Hello	
 	public static final String USERNAME = "kollipurnareddy1";
 	public static final String AUTOMATE_KEY = "CUgggzdp2ZBrnXsVvzCh";
 	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
